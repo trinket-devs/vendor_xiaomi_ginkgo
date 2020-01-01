@@ -427,6 +427,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_mp.bin \
     vendor/xiaomi/ginkgo/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
     vendor/xiaomi/ginkgo/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/camera.trinket.shim.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.trinket.shim.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -514,7 +515,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalCFR.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libalLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalLDC.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libalRnBRT_GL_GBWRAPPER.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalRnBRT_GL_GBWRAPPER.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libalhLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalhLDC.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
@@ -1180,6 +1183,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdisplayqos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisplayqos.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdng_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdng_sdk.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdpps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpps.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
@@ -1189,6 +1193,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libft2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libft2vendor.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
@@ -1219,6 +1224,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libmiai_supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiai_supernight.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libmialgo_sd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_sd.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libmibokeh_660.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_660.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
@@ -1439,7 +1445,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libwigig_pciaccess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwigig_pciaccess.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libwigig_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwigig_utils.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libxiaomiAI_sensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxiaomiAI_sensor.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/miwatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/miwatermark.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_Classic.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_HD.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
