@@ -83,7 +83,6 @@ LensInfo : Information of the lens present in the module.
 G_AUX for wide camera
 W_AUX for micro camera
 -->
-
 <CameraConfigurationRoot>
  <!--- back main camera -->
   <CameraModuleConfig>
@@ -229,8 +228,6 @@ W_AUX for micro camera
        <MinFocusDistance>0.1</MinFocusDistance>
      </LensInfo>
    </CameraModuleConfig>
-   
-
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>ginkgo_gc2375h_ofilm_ii</SensorName>
@@ -353,6 +350,31 @@ W_AUX for micro camera
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+ <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>ginkgo_s5k4h7_ofilm_iii</SensorName>
+    <EepromName>ginkgo_s5k4h7_ofilm_iii</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_india>ginkgo_s5k4h7_ofilm_india_iii_chromatix</ChromatixName_india>
+    <ChromatixName>ginkgo_s5k4h7_ofilm_iii_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>G_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.66</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>4.0</TotalFocusDistance>
+      <HorizontalViewAngle>98.0</HorizontalViewAngle>
+      <VerticalViewAngle>80.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
 <!--- back macro camera -->
   <CameraModuleConfig>
     <CameraId>4</CameraId>
@@ -406,4 +428,29 @@ W_AUX for micro camera
        <MinFocusDistance>0.02</MinFocusDistance>
      </LensInfo>
    </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>5</CameraId>
+    <SensorName>ginkgo_vtcamera</SensorName>
+    <ChromatixName>csidtg_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK_AUX</Position>
+    <MountAngle>0</MountAngle>
+    <CSIInfo>
+      <CSIDCore>3</CSIDCore>
+      <LaneMask>0x0</LaneMask>
+      <LaneAssign>0x0</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.65</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>4.26</TotalFocusDistance>
+      <HorizontalViewAngle>78.6</HorizontalViewAngle>
+      <VerticalViewAngle>119</VerticalViewAngle>
+      <MinFocusDistance>0.4</MinFocusDistance>
+      <MaxRollDegree>360</MaxRollDegree>
+      <MaxPitchDegree>360</MaxPitchDegree>
+      <MaxYawDegree>360</MaxYawDegree>
+    </LensInfo>
+  </CameraModuleConfig>
 </CameraConfigurationRoot>

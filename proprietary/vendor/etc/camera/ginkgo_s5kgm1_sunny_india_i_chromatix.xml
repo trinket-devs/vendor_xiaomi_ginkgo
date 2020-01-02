@@ -282,6 +282,17 @@ special_mode_mask values:
       <A3Preview>ginkgo_s5kgm1_sunny_india_i_hfr_60_3a</A3Preview>
       <A3Video>ginkgo_s5kgm1_sunny_india_i_hfr_60_3a</A3Video>
     </ChromatixName>
+    <ChromatixName sensor_resolution_index="2" special_mode_mask="CTSVERIFY">
+      <ISPPreview>ginkgo_s5kgm1_sunny_india_i_preview_cts</ISPPreview>
+      <ISPSnapshot>ginkgo_s5kgm1_sunny_india_i_preview_cts</ISPSnapshot>
+      <ISPVideo>ginkgo_s5kgm1_sunny_india_i_video</ISPVideo>
+      <CPPPreview>ginkgo_s5kgm1_sunny_india_i_cpp_preview_video</CPPPreview>
+      <CPPSnapshot>ginkgo_s5kgm1_sunny_india_i_cpp_snapshot</CPPSnapshot>
+      <CPPVideo>ginkgo_s5kgm1_sunny_india_i_cpp_video</CPPVideo>
+      <CPPLiveshot>ginkgo_s5kgm1_sunny_india_i_cpp_liveshot</CPPLiveshot>
+      <A3Preview>ginkgo_s5kgm1_sunny_india_i_default_preview_3a</A3Preview>
+      <A3Video>ginkgo_s5kgm1_sunny_india_i_default_video_3a</A3Video>
+    </ChromatixName>
     <ChromatixName sensor_resolution_index="3" special_mode_mask="0">
       <ISPPreview>ginkgo_s5kgm1_sunny_india_i_hfr_90</ISPPreview>
       <ISPSnapshot>ginkgo_s5kgm1_sunny_india_i_hfr_90</ISPSnapshot>
