@@ -1946,7 +1946,6 @@ PRODUCT_PACKAGES += \
     FingerprintExtensionService \
     IWlanService \
     SoterService \
-    TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
     atfwd \
