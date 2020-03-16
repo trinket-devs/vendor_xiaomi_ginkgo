@@ -7,7 +7,7 @@
       Each feature has an xml file to define the feature components
 
   ===========================================================================
-  Copyright (c) 2017-2018 Qualcomm Technologies, Inc.
+  Copyright (c) 2019 Qualcomm Technologies, Inc.
   All Rights Reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
   ===========================================================================
@@ -27,8 +27,8 @@
     </Configs>
     <Profiles>
         <Profile>
-            <!-- Colocation v3 1 GHz, Predictive Load 1 -->
-            <DEFAULT>0x40c6c000,1000000,0x41444000,1</DEFAULT>
+            <!-- Colocation v3 1 GHz -->
+            <DEFAULT>0x40c6c000,1000000</DEFAULT>
             <!-- Colocation v3 1 GHz, Predictive Load 1 -->
             <SKEW2>0x40c6c000,1000000,0x41444000,1</SKEW2>
         </Profile>
@@ -76,11 +76,6 @@
                 </Trigger>
 
             </Triggers>
-            <Configs>
-                <MEMLAT_FREQ_VOTE_LITTLE_PATH>/sys/class/devfreq/soc:qcom,cpu0-llcc-ddr-lat/cur_freq</MEMLAT_FREQ_VOTE_LITTLE_PATH>
-                <MEMLAT_FREQ_VOTE_BIG_PATH>/sys/class/devfreq/soc:qcom,cpu6-llcc-ddr-lat/cur_freq</MEMLAT_FREQ_VOTE_BIG_PATH>
-                <MEMLAT_AVAIL_FREQ_LITTLE_PATH>/sys/class/devfreq/soc:qcom,cpu0-llcc-ddr-lat/available_frequencies</MEMLAT_AVAIL_FREQ_LITTLE_PATH>
-            </Configs>
             <Samples>100</Samples>
         </Meter>
 
