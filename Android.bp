@@ -1,6 +1,5 @@
 /**
- * Copyright (C) 2019-2020 The LineageOS Project
- * Copyright (C) 2019-2020 The PixelExperience Project
+ * Copyright (C) 2019-2020 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -106,6 +105,25 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.qti.hardware.capabilityconfigstore@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -275,3 +293,4 @@ dex_import {
 	owner: "xiaomi",
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
+
