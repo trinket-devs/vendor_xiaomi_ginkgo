@@ -296,8 +296,16 @@ dex_import {
 }
 
 dex_import {
+	name: "vendor.qti.hardware.capabilityconfigstore-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/product/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar"],
+	product_specific: true,
+}
+
+dex_import {
 	name: "vendor.qti.hardware.soter-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
 	product_specific: true,
 }
+
