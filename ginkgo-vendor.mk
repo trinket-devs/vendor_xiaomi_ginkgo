@@ -1335,6 +1335,92 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5k4h7_ofilm_india_iii_zsl_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5k4h7_ofilm_india_iii_zsl_preview_bu64297.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5k4h7_ofilm_india_iii_zsl_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5k4h7_ofilm_india_iii_zsl_video_720p.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5k4h7_ofilm_india_iii_zsl_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5k4h7_ofilm_india_iii_zsl_video_bu64297.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_common.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_common_torch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_common_torch.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_ds_chromatix.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_120.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_240.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_60.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_hfr_90.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_liveshot.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_preview.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_12M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_12M.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_12M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_12M_hht.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_12M_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_12M_sr.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_48M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_48M.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_48M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_48M_hht.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_HDR.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_panorama.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_portrait.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_torch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_snapshot_torch.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_us_chromatix.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_video_1080P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_video_1080P.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_video_4k.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_video_720P.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_video_720P.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_cpp_video_weixin.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_default_preview.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_default_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_hfr_120.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_hfr_240.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_hfr_60.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_hfr_90.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_3a_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_3a_video_720p.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_bokeh_preview_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_common.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_120.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_240.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_60.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_hfr_90.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_liveshot.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_liveshot_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_liveshot_720p.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview_sr.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_preview_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_bokeh.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_hdr.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_hht.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_snapshot_sr.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_720p.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_qq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_qq.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_weixin.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_weixin_res1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_cpp_video_weixin_res1.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_default_preview_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_default_video_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_120.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_120_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_240.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_240_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_240_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_60.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_60_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_90.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_hfr_90_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_pano_preview_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_postproc.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_preview.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_preview_cts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_preview_cts.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_qq_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_qq_video_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_bokeh.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_hdr.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_hht.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_snapshot_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_video_720p.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_video_qq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_video_qq.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_video_weixin.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_video_weixin_res1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_video_weixin_res1.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_weixin_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_weixin_video_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_weixin_video_3a_res1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_weixin_video_3a_res1.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_preview_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_preview_3a_its.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_preview_3a_its.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_preview_3a_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_preview_3a_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_iii_zsl_video_3a.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_3a_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_3a_video_720p.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_bokeh_preview_3a.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_common.so \
@@ -1377,6 +1463,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_bokeh.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_hdr.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_hht.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_snapshot_sn.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_video.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_ii_video_720p.so \
@@ -1443,6 +1530,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_india_ii_zsl_preview_3a_its.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_india_ii_zsl_preview_3a_its.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_india_ii_zsl_preview_3a_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_india_ii_zsl_preview_3a_sn.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_ofilm_india_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_ofilm_india_ii_zsl_video_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_post_proc.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_preview.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_12M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_12M.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_12M_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_12M_hht.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_48M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_48M.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_HDR.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_panorama.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_portrait.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_snapshot_torch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_snapshot_torch.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_i_3a_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_sunny_i_3a_video_720p.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_sunny_i_bokeh_preview_3a.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_sunny_i_common.so \
@@ -1551,6 +1648,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_preview_3a_its.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_preview_3a_its.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_preview_3a_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_preview_3a_sn.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_video_3a.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_video_weixin.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_120.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_240.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_240.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_60.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_hfr_90.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_12M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_12M.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_48M.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_48M.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_HDR.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_panorma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_panorma.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_portrait.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_sn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_sn.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_torch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_preview_torch.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_video.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_video_4k.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib/libchromatix_ginkgo_s5kgm1_zsl_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ginkgo_s5kgm1_zsl_video_weixin.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
