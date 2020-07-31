@@ -306,6 +306,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/camera/score_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_icon.png \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/camera/vidhance_C3J_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_C3J_calibration \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/camera/vidhance_C3X_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_C3X_calibration \
+    vendor/xiaomi/ginkgo/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/ginkgo/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
