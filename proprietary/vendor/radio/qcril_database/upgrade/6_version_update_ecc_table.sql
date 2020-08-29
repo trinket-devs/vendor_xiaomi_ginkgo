@@ -6,7 +6,7 @@
 
 BEGIN TRANSACTION;
 
-INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 5);
+INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 9);
 
 DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '405' AND MNC = '840' AND NUMBER = '101';
 DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '405' AND MNC = '840' AND NUMBER = '102';
