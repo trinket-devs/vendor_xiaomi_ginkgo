@@ -502,4 +502,30 @@ W_AUX for micro camera
        <MinFocusDistance>0.02</MinFocusDistance>
      </LensInfo>
    </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>4</CameraId>
+    <SensorName>ginkgo_hi259_af_ofilm_iii</SensorName>
+    <ActuatorName>ginkgo_hi259_ofilm_iii_dw9714</ActuatorName>
+    <EepromName>ginkgo_hi259_af_ofilm_iii</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_india>ginkgo_hi259_af_ofilm_india_iii_chromatix</ChromatixName_india>
+    <ChromatixName>ginkgo_hi259_af_ofilm_iii_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>W_AUX</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+       <CSIDCore>1</CSIDCore>
+      <LaneMask>0x18</LaneMask>
+      <LaneAssign>0x3</LaneAssign>
+       <ComboMode>1</ComboMode>
+     </CSIInfo>
+     <LensInfo>
+       <FocalLength>1.94</FocalLength>
+       <FNumber>2.4</FNumber>
+       <TotalFocusDistance>4.0</TotalFocusDistance>
+       <HorizontalViewAngle>71.0</HorizontalViewAngle>
+       <VerticalViewAngle>56.0</VerticalViewAngle>
+       <MinFocusDistance>0.02</MinFocusDistance>
+     </LensInfo>
+   </CameraModuleConfig>
 </CameraConfigurationRoot>
