@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  /* ====================================================================
- * Copyright (c) 2014 Qualcomm Technologies, Inc.
+ * Copyright (c) 2014,2020 Qualcomm Technologies, Inc.
  * All Rights Reserved.
  * Confidential and Proprietary - Qualcomm Technologies, Inc.
  * =====================================================================
@@ -13,6 +13,6 @@
 
     <library
         name="com.qti.snapdragon.sdk.display"
-        file="/system/framework/com.qti.snapdragon.sdk.display.jar" />
+        file="/product/framework/com.qti.snapdragon.sdk.display.jar" />
 
 </permissions>
