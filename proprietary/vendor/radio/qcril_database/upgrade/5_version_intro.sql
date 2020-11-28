@@ -101,11 +101,6 @@ INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('202','199','','');
 DELETE FROM qcril_emergency_source_hard_mcc_table WHERE MCC = '272' AND NUMBER = '1913';
 INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('272','1913','','');
 
-DELETE FROM qcril_emergency_source_hard_mcc_table WHERE MCC = '222' AND NUMBER = '000';
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('222','000','','');
-
-DELETE FROM qcril_emergency_source_hard_mcc_table WHERE MCC = '222' AND NUMBER = '110';
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('222','110','','');
 
 /*Modify for qcril_emergency_source_hard_mcc_table end>*/
 
@@ -150,10 +145,6 @@ INSERT INTO qcril_emergency_source_escv_nw_table VALUES('202', '', '166','2');
 
 
 /*<Modify for qcril_emergency_source_mcc_mnc_table start*/
-DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '222' AND MNC = '99' AND NUMBER = '999';
-DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '222' AND MNC = '99' AND NUMBER = '08';
-DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '222' AND MNC = '99' AND NUMBER = '118';
-DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '222' AND MNC = '99' AND NUMBER = '119';
 DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '230' AND MNC = '03' AND NUMBER = '112';
 DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '230' AND MNC = '03' AND NUMBER = '150';
 DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '230' AND MNC = '03' AND NUMBER = '155';
